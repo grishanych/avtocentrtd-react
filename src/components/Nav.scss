@@ -1,0 +1,45 @@
+.navbar {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    height: 790px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    list-style: none;
+
+    .nav-menu{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    li a{
+        display: flex;
+        align-items: top;
+        text-decoration: none;
+        margin: 0 0 0 30px;
+        color: #fff;
+        font-size: 18px;
+    }
+
+    .contacts-phone {
+        display: flex;
+        margin-left: 80px;
+        align-items: baseline;
+
+        .phones {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+
+            p {
+                padding: 0 10px;
+                color: #fff;
+                font-size: 18px;
+            }
+        }
+    }
+}
