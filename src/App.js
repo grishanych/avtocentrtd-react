@@ -1,10 +1,20 @@
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
+import Chain from './components/Chain';
+import Content from "./components/Content";
+import Nav from './components/Nav';
 
 function App() {
   return (
-    <div className="App">
-   <h1>АВТОЦЕНТР</h1>
-    </div>
+    <Router>
+      <Nav />
+      <Content />
+      <Routes>
+         <Route path="/chain" element={<Chain />} />
+      </Routes>
+    </Router>
+    
   );
 }
 
